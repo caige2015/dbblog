@@ -9,7 +9,6 @@ import io.swagger.annotations.ApiModelProperty;
 import lombok.Data;
 import org.springframework.data.annotation.Id;
 import org.springframework.data.elasticsearch.annotations.DateFormat;
-import org.springframework.data.elasticsearch.annotations.Document;
 import org.springframework.data.elasticsearch.annotations.Field;
 import org.springframework.data.elasticsearch.annotations.FieldType;
 
@@ -27,7 +26,6 @@ import java.util.Date;
  */
 @Data
 @ApiModel(value="BlogArticle对象", description="文章")
-@Document(indexName = "dbblog",type = "article")
 public class Article implements Serializable {
 
     private static final long serialVersionUID = 1L;
