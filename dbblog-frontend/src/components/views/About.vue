@@ -2,7 +2,7 @@
   <div class="about">
     <img class="background" src="../../assets/background.jpg" alt="">
     <img class="avatar" src="../../assets/avatar.png" alt="">
-    <p class="name">Bobbi</p>
+    <p class="name">Caige</p>
     <p class="desc">Write the code, Change the World</p>
     <ul class="social">
       <li><a href="https://github.com/llldddbbb" target="_blank"><img src="../../assets/icon/GitHub.png" alt=""></a></li>
